@@ -1,0 +1,25 @@
+Development 
+
+1. frontend / ui    - visual things whatever u see on ui  - html / css / javascript
+2. backend /service - all data fetch from servers / data manipulations etc-  java c c++ python 
+3. git - version control tool - github
+
+html - hyper text mark 
+https://www.w3schools.com/html/
+
+css - cascading sheet style - cosmetic effects like color, alignment, border -->  https://www.w3schools.com/css
+
+js - javascript - to implement button functionality on click 
+
+
+the style with tag names is called inline style
+styling in a separate file is called external css   
+
+
+Tags can have any number of attribute names like style name value etc.
+
+<div style="background:red">   -------------------> inline style
+<button class="button-styling"> submit </button> ----------> external css
+ 
+
+
