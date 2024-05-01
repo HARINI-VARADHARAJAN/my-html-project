@@ -1,0 +1,157 @@
+Oops - Object Oriented Programming langauge  (c++, java ,python, javascript)
+
+Class 
+
+
+attributes / class varaibles
+methods / functions
+
+
+Class Person {
+name;
+address;
+height;
+weight;
+
+getBMI(){
+return height-weight;
+}
+
+findmyAvgWeight(){
+
+}
+
+}
+
+
+
+Person harini= new Person('harini','ind',150,50);
+Person amrit=new Person('amrit','can',155,50);
+harini.getBMI();
+amrit.getBmi();
+
+
+
+---------------------------------------------------->encapsulation - binding your data and function together inside a class 
+
+----------------------------------------------------->inheritance -  Reusability of code  
+
+-----------------------------------------------------> polymorphism - Many forms
+
+------------------------------------------------------> Abstraction - what is implemented rather than how it is implementation
+
+
+
+
+class Adults extends Person{
+
+profession,
+salary,
+savings
+}
+
+
+
+Adult a1=new Adult();
+a1.name;
+a1.profession;
+
+a1.geBtMI(constant);
+
+
+
+class seniorcitizen extends Adult{
+pension
+
+getBMI(int a, int b, int c){         -----> declaration
+height* weight   -----> implementation
+}
+}
+
+
+
+
+Types of inheritance
+
+single : person
+
+multilevel - Person-> Adult -> SeniorCitizen
+                       
+multiple - vehicle, transport -> car
+
+hybrid - 
+                       c1
+			            |
+						v
+          vehicle, transport -> car
+
+SeniorCitizen s1=new SeniorCitizen()
+
+harini.getBmi();
+s1.getbmi
+
+
+
+multiple
+
+
+Class vehicle{
+vehicle no
+}
+
+class Transport{
+type
+}
+
+Class Car extends vehcile,transport{    ------> multiple 
+brand
+}
+
+
+
+
+Compile time Polymorphishm / Method Overriding
+----------------------------------------------
+
+Between Classes  
+
+implementation will differ but declaration will always be exactly the same
+
+Run Time Polymorphishm / Method Overloading
+-------------------------------------------
+
+Within a class 
+
+Declaration should not be the same 
+
+It should be Vary by number of parameters
+type of parameters
+
+
+Adult {
+getBMI(float a, float b){ 
+height* weight
+}
+getBMI(int a, int b){
+}
+getBMI(){
+}
+}
+
+
+
+Adult a1=new Adult();
+a1.getBMI()
+a1.getBmi()
+
+interface calculator{
+int getBmi(int height, weight);
+}
+
+
+
+Class Person implements calculator{
+int getBmi(int height, weight){
+height* weight;
+}
+}
