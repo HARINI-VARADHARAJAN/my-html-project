@@ -1,0 +1,149 @@
+Basic Concepts Of java
+------------------------
+
+loops :
+
+sum of 1 to 100 ;
+
+c=1+2+3;
+
+c=a.value+b.value+c.value
+
+int sum=0;
+for(int i=1;i<=3;i++){
+sum=sum+i;
+}
+cout << sum
+
+suum=0 i =1 sum = 0+1=1
+sum=1  i=2  sum =1+2 = 3
+sum=3  i =3 sum=3+3=6
+
+
+3 main things in a loops
+
+initial value;
+condition in which it breaks;
+increment/decrement according to logic
+
+sum=0;
+for(int i=100; i > 0 && i%5==0 ;i--){
+sum=sum+i;
+}
+
+i=100 sum=0  sum=0+100=100
+i=99 sum=100 
+i=98
+i=95 sum=100 sum = 95+100=95...
+
+int j=100;
+int sum=1;
+while (j < 100)
+{
+sum=sum*5;
+}
+cout<< sum;
+
+
+j=1  j=1*5=5
+j=5 j=5*5=25
+j=25 j=25*5=125
+
+
+
+j=1 sum=1 j=1*5=5
+
+
+
+
+
+do while
+sum=1;j=1;
+do {
+sum=sum+j;
+j++;
+} while(j < 100)
+
+
+sum=1 j=100 sum=1+100=101
+
+sum=1 j=1 sum=1+1=2
+sum=2 j=2 sum 2+2=4
+
+
+
+eclipse /idea
+
+
+public static void main()  
+
+1 to 1000
+
+Data types :
+
+primary : int , string , float,long,double, boolean
+secondary: User Defined Objects, Integer, String, Float, Boolean
+
+int value=1; String name="k"
+
+name+value=kdshfskudh+1=kdshfskudh1
+
+int value=1 ; int name=22
+1+22=23
+
+
+int.MAX_VALUE;
+
+
+1 5 2  10 8 9
+
+1 1000 230 450 1023 555
+
+res = 9999999;
+
+
+for(){
+if(i > res){
+res=i;
+}  
+
+res = 1
+res = 5;
+res=10 ;
+
+
+ public static void main(String[] args) {
+       
+        String msg= "hi 123 jfkdghk";
+   
+        // to get user input 
+         Scanner s = new Scanner(System.in);
+         System.out.println("Enter input 1");
+         int userInput1= s.nextInt();
+          System.out.println("Enter input 2");
+          int userInput2=s.nextInt();
+          
+          
+          
+          int res = Integer.MAX_VALUE;
+          if(userInput1 != 0 && userInput2!=0){
+              if(userInput1 > userInput2){
+                  res= userInput1;
+              } else {
+                  res = userInput2;
+              } 
+          } 
+        System.out.println(res);
+    }
+
+
+  Scanner s = new Scanner(System.in);
+         System.out.println("Enter input 1");
+         int userInput1= s.nextInt();
+          System.out.println("Enter input 2");
+          float userInput2=s.nextFloat();
+         
+           System.out.println("Enter input 3");
+               long  userInput3= s.nextLong();
+          
+        System.out.println(userInput2 + Integer.MAX_VALUE);
